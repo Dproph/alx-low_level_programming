@@ -4,7 +4,7 @@
  * main - Entry point of the program
  *
  * Description: This function prints the message
- * "with proper grammar, but the outcome is a piece of art."
+ * "with proper grammar, but the outcome is a piece of art,,"
  * followed by a newline using the printf function,
  * and then returns 0.
  *
@@ -12,6 +12,6 @@
  */
 int main(void)
 {
-    printf("with proper grammar, but the outcome is a piece of art,\n");
+    printf("with proper grammar, but the outcome is a piece of art,,\n");
     return (0);
 }
