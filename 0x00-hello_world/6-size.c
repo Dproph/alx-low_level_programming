@@ -9,7 +9,7 @@
  * Return: Always 0 (success)
  */
 int main(void)
-{ 
+{
 	printf("Size of char: %zu bytes\n", sizeof(char));
 	printf("Size of short: %zu bytes\n", sizeof(short));
 	printf("Size of int: %zu bytes\n", sizeof(int));
