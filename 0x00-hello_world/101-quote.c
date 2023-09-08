@@ -1,11 +1,11 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include <unistd.h>
 
 /**
-*main - Description
-*
-*Return: 1 means (Success)
-*/
+ * main - Entry point
+ *
+ * Return: Always 1 (Success)
+ */
 int main(void)
 {
 	write(2,
