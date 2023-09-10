@@ -16,10 +16,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-		printf("%d\n", n);
+		printf("The number %d is ", n);
+
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("positive\n");
 	}
 	else if (n == 0)
 	{
