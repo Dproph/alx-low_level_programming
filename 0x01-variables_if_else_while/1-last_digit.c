@@ -13,13 +13,11 @@ int main(void)
 {
 	int n;
 	int lastDigit;
-	char *;
 	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastDigit = abs(n) % 10;
-	*comparison = (n < 0) ? "and is less than 6 and not 0" : "and is";
-	printf("Last digit of %d is %d %s ", n, lastDigit, comparison);
+	printf("Last digit of %d is %d and is ", n, lastDigit);
 	
 	if (lastDigit > 5)
 {
