@@ -2,19 +2,21 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *Description: Positive anything is better than negative nothing.
+/**
+ * main - Entry point of the program.
  *
- *Return: Always (0)
+ * Description: Positive anything is better than negative nothing.
+ *
+ * Return: Always (0)
 */
 int main(void)
 {
 	int n;
-
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-		printf("The number: %d\n", n);
+		printf("%d\n", n);
 	if (n > 0)
 	{
 		printf("is positive\n");
