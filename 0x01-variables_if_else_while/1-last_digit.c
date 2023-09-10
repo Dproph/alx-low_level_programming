@@ -5,7 +5,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Funtion generates a randon number and prints its last digit 
+ * Description: Funtion generates a randon number and prints its last digit
  *
  * Return: 0 (Success)
 */
@@ -19,7 +19,7 @@ int main(void)
 	lastDigit = abs(n) % 10;
 	printf("Last digit of %d is %d and is ", n, lastDigit);
 
-	if (lastDigit > 5) 
+	if (lastDigit > 5)
 	{
 		printf("greater than 5\n");
 	}
