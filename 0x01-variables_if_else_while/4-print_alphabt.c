@@ -21,6 +21,6 @@ int main(void)
 	letter++;
 	}
 	printf("\n");
-	
+
 	return (0);
 }
