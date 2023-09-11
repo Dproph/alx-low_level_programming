@@ -12,7 +12,7 @@ int main(void)
 {
 	char letter = 'a';
 
-	printf("Lowercase alphabets without 'q' and 'e': ");
+	printf(letter);
 	while (letter <= 'z')
 	{
 		if (letter != 'q' && letter != 'e')
@@ -22,6 +22,6 @@ int main(void)
 	letter++;
 	}
 	printf("\n");
-
-	return 0;
+	
+	return (0);
 }
