@@ -12,7 +12,6 @@ int main(void)
 {
 	char letter = 'a';
 
-	printf(letter);
 	while (letter <= 'z')
 	{
 		if (letter != 'q' && letter != 'e')
