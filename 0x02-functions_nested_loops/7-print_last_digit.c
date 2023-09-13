@@ -1,20 +1,18 @@
 #include "main.h"
-#include "unistd.h" /* For write() function */
-
 /**
- * print_last_digit - Prints the last digit of a number.
- * @n: The number to extract and print the last digit from.
- *
- * Return: The value of the last digit.
+ * print_last_digit - prints the last digit of a number
+ * @n: the int to extract the last digit from
+ * Return: value of the last digit
  */
 int print_last_digit(int n)
 {
-	int last_digit = n % 10;
+	int a;
 
-	if (last_digit < 0)
-		last_digit = -last_digit;
-	write(1, &last_digit, 1);
-
-	return (last_digit);
+	if (n < 0)
+		n = -n;
+	a = n % 10;
+	if (a < 0)
+		a = -a;
+	_putchar(a + '0');
+	return (a);
 }
-
