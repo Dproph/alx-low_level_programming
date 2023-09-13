@@ -1,12 +1,23 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
- * main - Entry point
+ * _putchar - writes a character to the standard output
+ * @c: The character to print
  *
- * Description: A program that prints _putchar and a new line
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return write(1, &c, 1);
+}
+
+/**
+ * main - Entry point of the program
  *
- * Return: Success (0)
-*/
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	_putchar('_');
@@ -18,6 +29,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
+	
 	return (0);
 }
