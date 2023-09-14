@@ -23,6 +23,7 @@ void jack_bauer(void)
 			_putchar('0' + min_tens);
 			_putchar('0' + min_ones);
 
+			
 			if (!(hour == 23 && minute == 59))
 			{
 				_putchar('\n');
