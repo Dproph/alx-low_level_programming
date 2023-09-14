@@ -18,7 +18,6 @@ void jack_bauer(void)
 			int min_ones = minute % 10;
 
 			_putchar('0' + hour_tens);
-			_putchar('0' + hour_tens);
 			_putchar('0' + hour_ones);
 			_putchar(':');
 			_putchar('0' + min_tens);
