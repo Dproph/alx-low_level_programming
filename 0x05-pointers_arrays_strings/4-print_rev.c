@@ -7,15 +7,18 @@
  */
 void print_rev(char *s)
 {
-	if (s != NULL) {
+	if (s != NULL)
+	{
 	int length = 0;
 
-	while (*s != '\0') {
+	while (*s != '\0')
+	{
 	length++;
 	s++;
 	}
 
-	while (length > 0) {
+	while (length > 0)
+	{
 	s--;
 	write(1, s, 1);
 	length--;

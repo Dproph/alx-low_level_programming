@@ -7,8 +7,10 @@
  */
 void _puts(char *str)
 {
-	if (str != NULL) {
-	while (*str != '\0') {
+	if (str != NULL)
+	{
+	while (*str != '\0')
+	{
 	write(1, str, 1);
 	str++;
 	}
