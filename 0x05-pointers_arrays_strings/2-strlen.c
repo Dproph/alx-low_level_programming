@@ -7,15 +7,16 @@
  */
 int _strlen(char *s)
 {
-
 	int length = 0;
 
-	if (s != NULL) {
- 	while (*s != '\0') {
+	if (s != NULL)
+	{
+	while (*s != '\0')
+	{
 	length++;
 	s++;
 	}
 	}
 
-	return length;
+	return (length);
 }
