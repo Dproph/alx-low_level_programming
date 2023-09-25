@@ -11,27 +11,28 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int len = 0;
-	int match;
 
 	while (*s)
 	{
-	match = 0;
-	while (*accept)
+	int is_accepted = 0;
+	char *a = accept;
+
+	while (*a)
 	{
-	if (*s == *accept)
+	if (*s == *a)
 	{
+	is_accepted = 1;
+	break;
+	}
+	a++;
+	}
+
+	if (!is_accepted)
+	{
+	break;
+	}
+
 	len++;
-	match = 1;
-	break;
-	}
-	accept++;
-	}
-
-	if (!match)
-	{
-	break;
-	}
-
 	s++;
 	}
 
